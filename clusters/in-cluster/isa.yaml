@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: isa-dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: isa-fancy-staging
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: isa-fancy-prod

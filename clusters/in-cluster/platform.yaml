@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-dev
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-fancy-staging
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-fancy-prod
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-ugly-staging
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-ugly-prod
